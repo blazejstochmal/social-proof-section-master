@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  margin: auto;
+}
+
+.homepage {
+  background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  margin: 5rem auto auto auto;
+  padding: 1rem;
+  max-width: 500px;
+}
+.homepage__container {
+  text-align: center;
+}
+.homepage__container .homepage__text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.homepage__container .homepage__text .homepage__title {
+  max-width: 270px;
+  line-height: 1;
+  margin: auto;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #502050;
+}
+.homepage__container .homepage__text .homepage__description {
+  padding: 0.9375rem;
+  text-align: center;
+  color: #937b92;
+}
+.homepage__rates .rate__description {
+  background-color: #f7f2f7;
+  color: #502050;
+  font-weight: 700;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+}
+.homepage__rates .rate__description .star {
+  margin: 0 0.4rem 0.5rem 0;
+}
+.homepage__opinions .opinion {
+  text-align: left;
+  background-color: #502050;
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+.homepage__opinions .opinion__label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.homepage__opinions .opinion__label .opinion__author {
+  color: #fff;
+  font-weight: 700;
+}
+.homepage__opinions .opinion__label .opinion__grade {
+  color: #ee68a4;
+  font-weight: 300;
+}
+.homepage__opinions .opinion .opinion__description {
+  color: #fff;
+  text-indent: 0.5rem;
+}
+.homepage__opinions .author {
+  width: 50px;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .homepage {
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    max-width: 1440px;
+    padding: 2rem 4rem;
+  }
+  .homepage__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+  .homepage__container .homepage__text {
+    text-align: left;
+  }
+  .homepage__container .homepage__text .homepage__title {
+    max-width: 500px;
+    font-size: 3.5rem;
+    margin: auto auto 1.5rem auto;
+  }
+  .homepage__container .homepage__text .homepage__description {
+    max-width: 500px;
+    line-height: 1.7;
+    padding: 0;
+    margin: auto 0;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .homepage__rates .rate__description {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 4rem;
+  }
+  .homepage__rates .rate__description--text {
+    margin: 0 2rem;
+  }
+  .homepage__rates .rate__description .star {
+    margin-left: 0.4rem;
+  }
+  .homepage__rates .rate__description:nth-child(2) {
+    transform: translateX(10%);
+  }
+  .homepage__rates .rate__description:nth-child(3) {
+    transform: translateX(20%);
+  }
+  .homepage__opinions {
+    display: flex;
+  }
+  .homepage__opinions .opinion {
+    padding: 3rem 2rem;
+    margin-left: 2rem;
+  }
+  .homepage__opinions .opinion:nth-child(2) {
+    transform: translateY(10%);
+  }
+  .homepage__opinions .opinion:nth-child(3) {
+    transform: translateY(20%);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
