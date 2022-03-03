@@ -6,7 +6,7 @@ Website was made in HTML/CSS(SCSS) soon in JS. <br />
 The website is adapted to be well-visible at desktop and mobile phones.
 
 <h2>Desktop view</h2>
-<img src="social-proof-section-master/screenshots/1.png">
+<img src="screenshots/1.png">
 <br />
 <h2>Mobile view</h2>
-<img src="social-proof-section-master/screenshots/2.png">
+<img src="screenshots/2.png">
